@@ -1,0 +1,47 @@
+COURSE REGISTRATION SYSTEM - REQUIREMENTS
+=========================================
+
+TECH STACK VERSIONS
+-------------------
+Backend:
+- Java: 21 (LTS)
+- Spring Boot: 3.5.3
+- Spring Data JPA: managed by Spring Boot 3.5.3
+- Spring Web: managed by Spring Boot 3.5.3
+- Maven: 3.9+ recommended
+
+Frontend:
+- Node.js: 20+ recommended
+- npm: 10+ recommended
+- React: 19.1.1
+- React DOM: 19.1.1
+- React Router DOM: 7.8.2
+- Vite: 7.1.3
+
+Database:
+- MySQL: 8.0+ (MySQL 8.x recommended)
+
+TOOLS:
+- IntelliJ IDEA / Eclipse / VS Code
+- MySQL Workbench (optional but recommended)
+- A modern browser such as Chrome or Edge
+
+SYSTEM REQUIREMENTS
+--------------------
+- Windows, Linux, or macOS
+- Internet connection for the first Maven/npm dependency installation
+- At least 4 GB RAM recommended
+
+IMPORTANT
+---------
+The backend uses the database name:
+    course_reg_sym
+
+Default Spring Boot database configuration uses:
+    username = root
+    password = root
+
+Change these values in:
+Backend/Course-Registration-System/src/main/resources/application.properties
+
+or provide DB_USERNAME and DB_PASSWORD as environment variables.
